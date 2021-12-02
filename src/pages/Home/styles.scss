@@ -29,4 +29,10 @@
       width: 80%;
     }
   }
+
+  &__pills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
