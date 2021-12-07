@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './styles.scss'
+import './home.scss'
 import imageDestack from '../../images/imagem-destaque.png'
 import Pills from '../../components/Pills'
 

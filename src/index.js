@@ -4,6 +4,7 @@ import './styles/global.scss'
 import Header from './components/Header'
 import Home from './pages/Home/index'
 import Curator from './components/Curator'
+import Footer from './components/Footer'
 
 const CONFIG = {
   city: 'São Paulo',
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Home city={CONFIG.city} />
       <Curator />
     </div>
+    <Footer />
   </div>,
   document.getElementById('root')
 )

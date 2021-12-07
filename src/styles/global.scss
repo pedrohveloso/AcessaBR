@@ -19,7 +19,8 @@ body {
   margin: 0;
 }
 
-.main {
+.main,
+.footer {
   &__wrapper {
     width: 100%;
     display: flex;
@@ -38,4 +39,12 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.button {
+  background-color: 	hsl(215, 85%, 92%);
+  border-radius: .5rem;
+  box-shadow: .1rem .1rem .4rem hsl(0, 0%, 20%);
+  padding: 1rem;
+  align-self: flex-end;
 }
