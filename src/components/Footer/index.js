@@ -41,7 +41,7 @@ function Footer() {
               </a>
             </small>
           </p>
-          <a href="#top" className='button'>
+          <a href="#top" className='top-button'>
             <img src={iconTop} alt="Voltar ao topo"></img>
           </a>
         </div>
