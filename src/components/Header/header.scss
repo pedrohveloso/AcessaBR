@@ -1,3 +1,5 @@
+@import '../../styles/responsive';
+
 .header {
   &__container {
     width: 100%;
@@ -11,11 +13,12 @@
     display: flex;
     align-items: flex-end;
 
-    &--state {
+    &--city {
       img {
         margin-right: 1rem;
       }
     }
+
   }
 
   &__city {
@@ -29,5 +32,26 @@
     line-height: 1.4rem;
     margin-right: 1.2rem;
     font-weight: 400;
+  }
+
+  @media (max-width: $mobileLarge) {
+    
+
+    &__logo {
+      flex-wrap: wrap;
+
+      &--ebac {
+        width: 90px;
+        margin-left: 2rem;
+      }
+    }
+
+    &--city {
+      margin-top: 1rem;
+    }
+
+    &__span {
+      margin-bottom: .4rem;
+    }
   }
 }
